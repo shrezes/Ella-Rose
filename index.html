@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title> Ella-Rose</title>
 	
 	
@@ -27,6 +27,8 @@
 	
 		<!-- Include HTML files-->
 	<script src="https://unpkg.com/htmlincludejs"></script>
+	
+	
 	
 	<!--ICONS link-->
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -107,6 +109,38 @@ body {
 	
 	
 <body  style="font-family: ">
+	
+	
+	<!-- Messenger Chat plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "108150598157827");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v15.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 
 <!-- Up Button-->
  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="arrow up"></i></button> 	
@@ -142,7 +176,11 @@ body {
 					  <br>
 					<p class="card-text">Ella – Rose (ER) is a fast-growing BPO located in Colombo, Sri Lanka, celebrating its 7th successful year of operation in 2021. We address our clients’ specific needs and goals with high standards of quality and due care. Acting beyond an outsourcing partner, we provide complete and customized business solutions to our clients. We are flexible with working around the clock according to our clients’ time zones.
 					<br><br>It's the ER Exclusivity that empowers our success, from the expertise of our talented leaders and our years of experience producing measurable results for our clients, and the bond we form with our clients and employees. These stimulate our operations and accelerate our clients' growth.&nbsp;<br></p>
-					  </font>
+						
+					<a href="contact.html">Contact Us</a>
+					 
+					</font>
+					  
 					
 				  </div>
 				</div>
@@ -175,7 +213,8 @@ body {
 						<h2 style="color: #8F0B47" class="card-title "><strong>NETWORK OPERATION CENTRE (NOC)</strong></h2>
 						<p class="card-text">Ella – Rose (ER) is a fast-growing BPO located in Colombo, Sri Lanka, celebrating its We have a Network Operations Centre (NOC) specialized in Telecommunication industry managing wholesale telecom traffic, terminates through VOIP switches belong to telecom carriers. <br>
 						<br>Our dedicated NOC team monitors the links and routes and the quality of the telecom traffic continuously, providing 24 x 7 x 365 service and immediate response.</p>
-							
+						
+						<a href="contact.html">Contact Us</a>
 					</font>
 				  </div>
 				</div>
@@ -199,7 +238,7 @@ body {
 						<p class="card-text">We are specialized in understanding the business processes of various clients from various industries. Our specialists carry out in depth study of your businesses and its existing processes and build up a customized team for all your back-office needs. <br>
 						<br>Without limiting our services to simple staff solutions, we move few steps beyond and help our clientele with re-designing, simplifying, and automating their processes. At ER we even build process frameworks from scratch that improves the productivity and efficiency allowing our clients to focus on their core competencies.&nbsp;<br></p>
 
-					
+						<a href="contact.html">Contact Us</a>
 						</font>
 				  </div>
 				</div>
@@ -396,6 +435,8 @@ body {
 						<p class="mbr-text mbr-fonts-style display-7">Inbound call centre services range from answering customer queries about the product or services, resolving customer issues and complaints, and escalating technical inquiries to technical teams.
 						<br><br>Outbound call centre services involve in calling existing or prospective customers of a business. These calls are usually targeted at creating sales, selling subscriptions or customer retention.
 						<br><br>Technical support services that act as an IT helpdesk for customers to resolve their core technical issues related to various products and services. We believe this service is a key towards keeping your customers satisfied and retained with the rapid increase in technology user base.&nbsp;<br></p>
+						 
+						 <a href="contact.html">Contact Us</a>
 					 </font>
 				  </div>
 				</div>
@@ -420,6 +461,8 @@ body {
 							<p class="mbr-text mbr-fonts-style display-7">Our expertise in Accountancy and Taxation has benefited our clients over the years in obtaining timely and reliable financial information, meeting tax deadlines and accountancy and tax compliances. <br>
 							<br>ER’s reliable, high quality accounting and bookkeeping team can manage accounts payable, accounts receivable, and general bookkeeping up to financial statements, analysis of financial information and various financial reconciliation tasks. These services, while highly skilled, are time consuming and often costly to employ in-house.
 							<br><br>Our global clients always rely us on guiding them with Sri Lanka tax compliances. We provide tax advisory services and all tax compliance work of local and foreign clients in Sri Lankan tax jurisdiction.&nbsp;<br></p>
+						
+						<a href="contact.html">Contact Us</a>
 					  </font>
 				  </div>
 				</div>
@@ -452,6 +495,8 @@ body {
 						<h2 style="color: #8F0B47; padding-top: 60px;" class="card-title "><strong>BUSINESS MODEL PLANNING</strong></h2>
 							<p class="mbr-text mbr-fonts-style display-7">We assist foreign investors with designing suitable business models to do business in Sri Lanka and finding them avenues on how they could maximise profits.
 							<br>Turning your ideas from a scratch to a complete business proposal and giving your business the most suitable legal form are part and parcel of our business model planning.&nbsp;<br></p>
+						
+						<a href="contact.html">Contact Us</a>
 					  </font>
 					  
 				  </div>
@@ -476,6 +521,8 @@ body {
 					<h2 style="color: #8F0B47" class="card-title "><strong>INVESTMENT ANALYSIS & CONSULTATION</strong></h2>
 					<p class="mbr-text mbr-fonts-style display-7">At ER, we help you select the best investment proposal matching your investment motives by studying and analysing various investment proposals that involves quality time. We consult our clients on accepting the matching investment plans. 
 					<br>Our experienced advisors facilitate you with examining all the documentation and providing you with the glimpse of important aspects in bringing your decision making a simple task.&nbsp;&nbsp;<br></p>
+						  
+						  <a href="contact.html">Contact Us</a>
 					  </font>
 				  </div>
 				</div>
@@ -535,7 +582,7 @@ body {
 				
 				
 			<!--Grid column-->
-			<div style="font-size: 15px; padding-left: 20px" class="col-md-2" >
+			<div style="font-size: 14px; padding-left: 20px" class="col-md-2" >
 			  
 				<h5 class="">Ella - Rose (Pvt)Ltd</h5>
 
@@ -549,7 +596,7 @@ body {
 								+94 (11) 236 0183<br>
 								+94 (11) 236 0183 <br>
 						<p>Address: <br>Ella - Rose (Pvt) Ltd,
-						<br>No.30, Dharmarama Road,<br> Colombo – 06</p></p>
+						<br>No.30,<br> Dharmarama Road,<br> Colombo – 06</p></p>
 					</address>
 
 				</div>
@@ -562,7 +609,7 @@ body {
 			<div class="col-md-2">
 				<h5 class="">Solutions</h5>
 
-				<ul style="font-size: 15px"  class="list-unstyled mb-0 ">
+				<ul style="font-size: 14px"  class="list-unstyled mb-0 ">
 				  <li>
 					<a  href="index.html#network operation center" class="text-white">Network Operation Center</a>
 				  </li>
@@ -591,7 +638,7 @@ body {
 		
 				<h5 class="">Why Us</h5>
 
-				<ul style="font-size: 15px" class="list-unstyled mb-0">
+				<ul style="font-size: 14px" class="list-unstyled mb-0">
 				  <li>
 					<a href="why.html#what we do" class="text-white">What We Do</a>
 				  </li>
@@ -609,7 +656,7 @@ body {
 			  
 				<h5 class="">About</h5>
 
-				<ul style="font-size: 15px" class="list-unstyled mb-0">
+				<ul style="font-size: 14px" class="list-unstyled mb-0">
 				  <li>
 					<a href="about.html#our team" class="text-white">Our Team</a>
 				  </li>
@@ -624,7 +671,7 @@ body {
 					<br>
 					
 				<h5 class="">Partner Companies</h5>
-					<ul style="font-size: 15px" class="list-unstyled mb-0">
+					<ul style="font-size: 14px" class="list-unstyled mb-0">
 				  <li>
 					<a href="https://www.ivoco.com/" class="text-white">International Voice Cooperation</a>
 				  </li>
@@ -689,17 +736,17 @@ body {
 			<!-- Facebook -->
 					<ul class="list-inline mb-0">
 					  <li class="list-inline-item g-mx-5">
-						<a class="u-icon-v3 u-icon-size--sm g-font-size-default g-color-primary g-bg-white g-bg-black-opacity-0_9--hover" href="https://www.facebook.com/Ella-Rose-Private-Ltd-108150598157827 ">
+						<a class="u-icon-v3 u-icon-size--sm g-font-size-default g-color-primary g-bg-white g-bg-black-opacity-0_9--hover" href="https://www.facebook.com/Ella-Rose-Private-Ltd-108140598147827 " target="_blank">
 						  <i class="fa fa-facebook text-white"></i>
 						</a>
 					  </li>
 					  <li class="list-inline-item g-mx-5">
-						<a class="u-icon-v3 u-icon-size--sm g-font-size-default g-color-primary g-bg-white g-bg-black-opacity-0_9--hover" href="https://www.instagram.com/ellarosepvtltd/">
+						<a class="u-icon-v3 u-icon-size--sm g-font-size-default g-color-primary g-bg-white g-bg-black-opacity-0_9--hover" href="https://www.instagram.com/ellarosepvtltd/" target="_blank">
 						  <i class="fa fa-instagram text-white"></i>
 						</a>
 					  </li>
 					  <li class="list-inline-item g-mx-5">
-						<a class="u-icon-v3 u-icon-size--sm g-font-size-default g-color-primary g-bg-white g-bg-black-opacity-0_9--hover" href="https://www.linkedin.com/company/ella-rose-pvt-ltd/ ">
+						<a class="u-icon-v3 u-icon-size--sm g-font-size-default g-color-primary g-bg-white g-bg-black-opacity-0_9--hover" href="https://www.linkedin.com/company/ella-rose-pvt-ltd/ " target="_blank">
 						  <i class="fa fa-linkedin text-white"></i>
 						</a>
 					  </li>
@@ -711,14 +758,14 @@ body {
 		<!-- Grid container -->
 
 		<!-- Copyright -->
-		<div
-			 class="text-center p-3"
-			 style="background-color: rgba(0, 0, 0, 0.2)"
-			 >
-		  © 2022 Copyright:
-		  <a class="text-white" href="https://mdbootstrap.com/"
-			 >Ella-Rose - All Rights Reserved </a
-			>
+	
+	
+		<div class=" p-3" style="background-color: rgba(0, 0, 0, 0.2)" >
+			Developed by Cyrus Information Technologies (Pvt)Ltd &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         © 2022 Copyright:
+		
+		<a class="text-white " href="https://mdbootstrap.com/"
+			 >Ella-Rose - All Rights Reserved </a>
+			
 		</div>
 		<!-- Copyright -->
 	  </footer>
